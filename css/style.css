@@ -13,9 +13,20 @@ main{
    align-items: center;
 }
 
-div.container{
+div.my_container{
+    display: flex;
     width: 80%;
     height: 90%;
     /* da rimuovere */
     background-color: blue;
+}
+
+div.my_container div.my-chat{
+    /* da rimuovere */
+    background-color: green;
+}
+
+div.my_container div.open-chat{
+    /* da rimuovere */
+    background-color: yellow;
 }
