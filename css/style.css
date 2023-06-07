@@ -8,4 +8,14 @@ main{
    background-color: #009688;
    width: 100vw;
    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+div.container{
+    width: 80%;
+    height: 90%;
+    /* da rimuovere */
+    background-color: blue;
 }
