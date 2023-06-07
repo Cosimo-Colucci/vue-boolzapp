@@ -19,29 +19,43 @@ div.my_container{
     height: 90%;
 }
 
-div.my_container div.my-chat{
-    display: flex;
-    justify-content: space-between;
-    height: 13%;
-    background-color: #eaeaea;
-    padding: 0.5rem;
+div.my-chat_container{
+    
     
 }
 
-div.my_container div.my-chat div.personal-section{
+div.my-chat{
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
 }
 
-div.my_container div.my-chat div.personal-section img{
-    width: 15%;
+
+div img{
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
-div.my_container div.my-chat div.personal-settings{
+div.personal-settings{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 13%;
     justify-content: space-evenly;
+}
+
+div.chat-list{
+    background-color: white;
+    height: calc(100% - 50px);
+    padding: .5rem;
+}
+
+div ul{
+    list-style-type: none;
+    padding: 0;
+    height: 90%;
+    overflow-y: scroll;
 }
 
 div.my_container div.open-chat{
