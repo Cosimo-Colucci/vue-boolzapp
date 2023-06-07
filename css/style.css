@@ -17,13 +17,31 @@ div.my_container{
     display: flex;
     width: 80%;
     height: 90%;
-    /* da rimuovere */
-    background-color: blue;
 }
 
 div.my_container div.my-chat{
-    /* da rimuovere */
-    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    height: 13%;
+    background-color: #eaeaea;
+    padding: 0.5rem;
+    
+}
+
+div.my_container div.my-chat div.personal-section{
+}
+
+div.my_container div.my-chat div.personal-section img{
+    width: 15%;
+    border-radius: 50%;
+}
+
+div.my_container div.my-chat div.personal-settings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+    justify-content: space-evenly;
 }
 
 div.my_container div.open-chat{
