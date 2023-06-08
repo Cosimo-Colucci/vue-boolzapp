@@ -24,10 +24,12 @@ div.my-chat_container{
     
 }
 
-div.my-chat{
+div.my-chat,
+div.chat-contact{
     background-color: #eaeaea;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -37,7 +39,8 @@ div img{
     border-radius: 50%;
 }
 
-div.personal-settings{
+div.personal-settings,
+div.massaage-settings{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +61,35 @@ div ul{
     overflow-y: scroll;
 }
 
+
 div.my_container div.open-chat{
     /* da rimuovere */
-    background-color: yellow;
+}
+div.main-chat{
+    height: calc(100% - 100px);
+    width: 100%;
+    background: url(../img/mine.jpg);
+    overflow-y: scroll;
+}
+div.message{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+div.message p.message-sended{
+    color: green;
+    text-align: end;
+}
+div.message p.message-receved{
+    color: white;
+}
+div.text-chat{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: .7rem 0;
+    background-color: #eaeaea;
+}
+div.text-chat input{
+    width: 80%;
 }
