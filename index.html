@@ -80,8 +80,8 @@
                     </div>
                     <div class="main-chat">
                         <div class="messages">
-                            <p class="message-sent" v-for="message in contacts[1].messages">
-                                {{ message }}
+                            <p :class="contacts[1].messages.status === 'sent'? 'message-sent' : 'message-received'" v-for="message in contacts[1].messages">
+                                {{ message.message }}
                             </p>
                         </div>                        
                     </div>
