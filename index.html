@@ -79,9 +79,10 @@
                         </div>
                     </div>
                     <div class="main-chat">
-                        <div class="message">
-                            <p class="message-sended">qualcosa</p>
-                            <p class="message-receved">qualcosaltro</p>
+                        <div class="messages">
+                            <p class="message-sent" v-for="message in contacts[1].messages">
+                                {{ message }}
+                            </p>
                         </div>                        
                     </div>
                     <div class="text-chat">
