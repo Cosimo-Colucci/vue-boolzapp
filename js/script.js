@@ -171,6 +171,11 @@ createApp({
                 date: '',
                 message: '',
                 status: 'sent'
+            },
+            replyMessage :{
+                date: '',
+                message: 'DAJE!!',
+                status: 'received'
             }
         }  
     },
@@ -182,6 +187,9 @@ createApp({
         newMessage (myMessage){
             this.contacts[this.activeIndex].messages.push(myMessage);
             this.myMessage = "";
+        },
+        messageReply(){
+            setTimeout(this.contacts[this.activeIndex].messages.push(replyMessage),2000)
         }
     }
     
