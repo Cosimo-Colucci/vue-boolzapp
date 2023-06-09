@@ -175,7 +175,7 @@ createApp({
         },
 
         newMessage (message){
-            this.messages.push(message);
+            this.contacts[this.activeIndex].messages.push(message);
             this.newMessage = "";
         }
     }
