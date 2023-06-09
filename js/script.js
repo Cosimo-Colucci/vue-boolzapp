@@ -172,6 +172,11 @@ createApp({
     methods : {
         selectContact (index){
             this.activeIndex = index;
+        },
+
+        newMessage (message){
+            this.messages.push(message);
+            this.message = ""
         }
     }
     
