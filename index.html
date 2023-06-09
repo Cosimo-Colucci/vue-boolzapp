@@ -87,7 +87,7 @@
                     </div>
                     <div class="text-chat">
                         <span><i class="fa-regular fa-face-smile"></i></span>
-                        <input type="text" value="" @keyup.enter="newMessage(myMessage)">
+                        <input type="text" v-model="myMessage.message" @keyup.enter="newMessage(myMessage)">
                         <span><i class="fa-regular fa-paper-plane"></i></span>
                     </div>
                 </div>

@@ -169,7 +169,7 @@ createApp({
             activeIndex : 0,
             myMessage :{
                 date: '',
-                message: 'input.value',
+                message: '',
                 status: 'sent'
             }
         }  
@@ -181,7 +181,7 @@ createApp({
 
         newMessage (myMessage){
             this.contacts[this.activeIndex].messages.push(myMessage);
-            this.newMessage = "";
+            this.myMessage = "";
         }
     }
     
