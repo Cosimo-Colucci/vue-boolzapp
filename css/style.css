@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.my-message{
+    color: green;
+    text-align: end;
+}
+.other-message{
+    color: white;
+}
+
 main{
    background-color: #009688;
    width: 100vw;
@@ -76,13 +84,7 @@ div.messages{
     margin: 0 auto;
     padding: 2rem 0;
 }
-div.messages p.message-sent{
-    color: green;
-    text-align: end;
-}
-div.messages p.message-received{
-    color: white;
-}
+
 div.text-chat{
     width: 100%;
     display: flex;
