@@ -176,7 +176,7 @@ createApp({
 
         newMessage (message){
             this.messages.push(message);
-            this.message = ""
+            this.newMessage = "";
         }
     }
     
